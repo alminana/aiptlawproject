@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/aiptlawproject.git/static/css/main.8c8b27cf.chunk.css",
-    "main.js": "/aiptlawproject.git/static/js/main.a9ec9099.chunk.js",
-    "main.js.map": "/aiptlawproject.git/static/js/main.a9ec9099.chunk.js.map",
-    "runtime-main.js": "/aiptlawproject.git/static/js/runtime-main.e8a2b912.js",
-    "runtime-main.js.map": "/aiptlawproject.git/static/js/runtime-main.e8a2b912.js.map",
-    "static/js/2.a03f4853.chunk.js": "/aiptlawproject.git/static/js/2.a03f4853.chunk.js",
-    "static/js/2.a03f4853.chunk.js.map": "/aiptlawproject.git/static/js/2.a03f4853.chunk.js.map",
-    "static/js/3.f91c57f1.chunk.js": "/aiptlawproject.git/static/js/3.f91c57f1.chunk.js",
-    "static/js/3.f91c57f1.chunk.js.map": "/aiptlawproject.git/static/js/3.f91c57f1.chunk.js.map",
-    "index.html": "/aiptlawproject.git/index.html",
-    "static/css/main.8c8b27cf.chunk.css.map": "/aiptlawproject.git/static/css/main.8c8b27cf.chunk.css.map",
-    "static/js/2.a03f4853.chunk.js.LICENSE.txt": "/aiptlawproject.git/static/js/2.a03f4853.chunk.js.LICENSE.txt",
-    "static/media/logo.6ce24c58.svg": "/aiptlawproject.git/static/media/logo.6ce24c58.svg"
+    "main.css": "/aiptlawproject/static/css/main.8c8b27cf.chunk.css",
+    "main.js": "/aiptlawproject/static/js/main.a9ec9099.chunk.js",
+    "main.js.map": "/aiptlawproject/static/js/main.a9ec9099.chunk.js.map",
+    "runtime-main.js": "/aiptlawproject/static/js/runtime-main.d0255d75.js",
+    "runtime-main.js.map": "/aiptlawproject/static/js/runtime-main.d0255d75.js.map",
+    "static/js/2.a03f4853.chunk.js": "/aiptlawproject/static/js/2.a03f4853.chunk.js",
+    "static/js/2.a03f4853.chunk.js.map": "/aiptlawproject/static/js/2.a03f4853.chunk.js.map",
+    "static/js/3.f91c57f1.chunk.js": "/aiptlawproject/static/js/3.f91c57f1.chunk.js",
+    "static/js/3.f91c57f1.chunk.js.map": "/aiptlawproject/static/js/3.f91c57f1.chunk.js.map",
+    "index.html": "/aiptlawproject/index.html",
+    "static/css/main.8c8b27cf.chunk.css.map": "/aiptlawproject/static/css/main.8c8b27cf.chunk.css.map",
+    "static/js/2.a03f4853.chunk.js.LICENSE.txt": "/aiptlawproject/static/js/2.a03f4853.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/aiptlawproject/static/media/logo.6ce24c58.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.e8a2b912.js",
+    "static/js/runtime-main.d0255d75.js",
     "static/js/2.a03f4853.chunk.js",
     "static/css/main.8c8b27cf.chunk.css",
     "static/js/main.a9ec9099.chunk.js"
