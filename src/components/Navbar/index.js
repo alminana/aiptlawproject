@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Button } from '../../UI/Button';
 import { Link } from 'react-router-dom';
 import '../Navbar/style/navbar.css';
-
+import banner from '../image/client/banner.jpg';
 
 function Navbar() {
   const [click, setClick] = useState(false);
@@ -94,7 +94,7 @@ function Navbar() {
       </nav>
   
       <section  className="jumbotron-banner jumbotron-fluid">
-      
+        <img src={banner} alt=""/>
       </section>
   
     </>
