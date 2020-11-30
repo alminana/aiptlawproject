@@ -1,26 +1,27 @@
 {
   "files": {
-    "main.css": "/aiptlawproject/static/css/main.38f471f0.chunk.css",
-    "main.js": "/aiptlawproject/static/js/main.dac1865a.chunk.js",
-    "main.js.map": "/aiptlawproject/static/js/main.dac1865a.chunk.js.map",
-    "runtime-main.js": "/aiptlawproject/static/js/runtime-main.03b660c3.js",
-    "runtime-main.js.map": "/aiptlawproject/static/js/runtime-main.03b660c3.js.map",
-    "static/css/2.43b2b750.chunk.css": "/aiptlawproject/static/css/2.43b2b750.chunk.css",
-    "static/js/2.d4bc4345.chunk.js": "/aiptlawproject/static/js/2.d4bc4345.chunk.js",
-    "static/js/2.d4bc4345.chunk.js.map": "/aiptlawproject/static/js/2.d4bc4345.chunk.js.map",
-    "static/js/3.562f4087.chunk.js": "/aiptlawproject/static/js/3.562f4087.chunk.js",
-    "static/js/3.562f4087.chunk.js.map": "/aiptlawproject/static/js/3.562f4087.chunk.js.map",
+    "main.css": "/aiptlawproject/static/css/main.a78d528b.chunk.css",
+    "main.js": "/aiptlawproject/static/js/main.dca3766b.chunk.js",
+    "main.js.map": "/aiptlawproject/static/js/main.dca3766b.chunk.js.map",
+    "runtime-main.js": "/aiptlawproject/static/js/runtime-main.4a2fa898.js",
+    "runtime-main.js.map": "/aiptlawproject/static/js/runtime-main.4a2fa898.js.map",
+    "static/css/2.000091ca.chunk.css": "/aiptlawproject/static/css/2.000091ca.chunk.css",
+    "static/js/2.69a66914.chunk.js": "/aiptlawproject/static/js/2.69a66914.chunk.js",
+    "static/js/2.69a66914.chunk.js.map": "/aiptlawproject/static/js/2.69a66914.chunk.js.map",
+    "static/js/3.7f84a8ee.chunk.js": "/aiptlawproject/static/js/3.7f84a8ee.chunk.js",
+    "static/js/3.7f84a8ee.chunk.js.map": "/aiptlawproject/static/js/3.7f84a8ee.chunk.js.map",
     "index.html": "/aiptlawproject/index.html",
-    "static/css/2.43b2b750.chunk.css.map": "/aiptlawproject/static/css/2.43b2b750.chunk.css.map",
-    "static/css/main.38f471f0.chunk.css.map": "/aiptlawproject/static/css/main.38f471f0.chunk.css.map",
-    "static/js/2.d4bc4345.chunk.js.LICENSE.txt": "/aiptlawproject/static/js/2.d4bc4345.chunk.js.LICENSE.txt",
-    "static/media/banner.362a7c10.jpg": "/aiptlawproject/static/media/banner.362a7c10.jpg"
+    "static/css/2.000091ca.chunk.css.map": "/aiptlawproject/static/css/2.000091ca.chunk.css.map",
+    "static/css/main.a78d528b.chunk.css.map": "/aiptlawproject/static/css/main.a78d528b.chunk.css.map",
+    "static/js/2.69a66914.chunk.js.LICENSE.txt": "/aiptlawproject/static/js/2.69a66914.chunk.js.LICENSE.txt",
+    "static/media/banner.362a7c10.jpg": "/aiptlawproject/static/media/banner.362a7c10.jpg",
+    "static/media/map.3dc075dc.jpg": "/aiptlawproject/static/media/map.3dc075dc.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.03b660c3.js",
-    "static/css/2.43b2b750.chunk.css",
-    "static/js/2.d4bc4345.chunk.js",
-    "static/css/main.38f471f0.chunk.css",
-    "static/js/main.dac1865a.chunk.js"
+    "static/js/runtime-main.4a2fa898.js",
+    "static/css/2.000091ca.chunk.css",
+    "static/js/2.69a66914.chunk.js",
+    "static/css/main.a78d528b.chunk.css",
+    "static/js/main.dca3766b.chunk.js"
   ]
 }
