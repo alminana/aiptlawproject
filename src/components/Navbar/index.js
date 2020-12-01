@@ -1,58 +1,103 @@
-import React, { useState } from 'react';
-import 'bootstrap/dist/css/bootstrap.min.css';
+import React, { useState, useEffect } from 'react';
+import { Button } from '../UI/Button';
+import { Link } from 'react-router-dom';
 import '../Navbar/style/navbar.css';
-import {Link} from 'react-router-dom';
-import {
-  Collapse,
-  Navbar,
-  NavbarToggler,
-  NavbarBrand,
-  Nav,
-  NavItem,
-  NavLink,
-  UncontrolledDropdown,
-  DropdownToggle,
-  DropdownMenu,
-  DropdownItem,
-  NavbarText
-} from 'reactstrap';
 
-const Example = (props) => {
-  const [isOpen, setIsOpen] = useState(false);
+function Navbar() {
+  const [click, setClick] = useState(false);
+  const [button, setButton] = useState(true);
 
-  const toggle = () => setIsOpen(!isOpen);
+  const handleClick = () => setClick(!click);
+  const closeMobileMenu = () => setClick(false);
+
+  const showButton = () => {
+    if (window.innerWidth <= 960) {
+      setButton(false);
+    } else {
+      setButton(true);
+    }
+  };
+
+  useEffect(() => {
+    showButton();
+  }, []);
+
+  window.addEventListener('resize', showButton);
 
   return (
-    <div className="container">
-      <Navbar  expand="md">
-        <NavbarBrand>
-        <Link to="/" >AIPT&T</Link>
-        </NavbarBrand>
-        <NavbarToggler onClick={toggle} />
-        <Collapse isOpen={isOpen} navbar>
-          <Nav className="mr-auto" navbar>
-            <NavItem>
-              <NavLink href="/components/">Services</NavLink>
-            </NavItem>
-            <NavItem>
-              <NavLink href="/components/">Offfices</NavLink>
-            </NavItem>
-            <NavItem>
-              <NavLink href="/components/">Testimony</NavLink>
-            </NavItem>
-            <NavItem>
-              <NavLink href="/components/">Team</NavLink>
-            </NavItem>
-            <NavItem>
-            <NavLink href="/components/">Contact</NavLink>
-            </NavItem>  
-          </Nav>
-        </Collapse>
-      </Navbar>
-    </div>
-    
-    
+    <>
+      <nav className='navbar '>
+        <div className='navbar-container '>
+          <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
+            AIP&T
+          </Link>
+          <div className='menu-icon' onClick={handleClick}>
+            <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
+          </div>
+          <ul className={click ? 'nav-menu active' : 'nav-menu'}>
+            <li className='nav-item'>
+              <Link to='/' className='nav-links' onClick={closeMobileMenu}>
+                HOME
+              </Link>
+            </li>
+            <li className='nav-item'>
+              <Link
+                to='/service'
+                className='nav-links'
+                onClick={closeMobileMenu}
+              >
+                SERVICES
+              </Link>
+            </li>
+            <li className='nav-item'>
+              <Link
+                    to='/svgmap'
+                    className='nav-links'
+                    onClick={closeMobileMenu}
+                    >
+                    OFFICES
+              </Link>
+            </li>
+
+            <li className='nav-item'>
+            <Link
+                  to='/teamsmate'
+                  className='nav-links'
+                  onClick={closeMobileMenu}
+                  >
+                  TEAM
+            </Link>
+          </li>
+
+            <li className='nav-item'>
+                <Link
+                    to='/news'
+                    className='nav-links'
+                    onClick={closeMobileMenu}
+                    >
+                  NEWS
+                </Link>
+            </li>
+
+            <li className='nav-item'>
+                <Link
+                    to='/contact'
+                    className='nav-links'
+                    onClick={closeMobileMenu}
+                    >
+                    CONTACT
+                </Link>
+            </li>
+          </ul>
+        </div>
+      </nav>
+  
+      <section  className="jumbotron-banner jumbotron-fluid">
+
+      </section>
+  
+    </>
   );
 }
 
-export default Example;
+export default Navbar;
